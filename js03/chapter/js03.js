@@ -16,6 +16,7 @@ let weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday",
 
 window.addEventListener("load", addWeekDays);
 
+// CH 3.4 WORKING WITH PROGRAM LOOPS
 // Function to write weekday names into the calendar
 function addWeekDays() {
     
@@ -57,9 +58,8 @@ function showGames() {
                 gameInfo += "<p class='postponed'>";
                 break;
         }
-
-
         
+    // CH 3.6 -- ADDING DECISION MAKING TO YOUR CODE
         // Display the game location
         if (gameLocations[i] === "h") {
             gameInfo += "vs. ";

@@ -9,9 +9,25 @@
       Filename: project03-01.js
 */
 
+// Declare menuItem variables
+let menuItems = document.getElementsByClassName("menuItem");
 
+for (let i=0; i < menuItems.length; i++) {
+      menuItems[i].addEventListener("click", calcTotal);
+}
 
+// Function to calculate total
+function calcTotal() {
+      let orderTotal = 0;
 
+      for (let i=0; i < 5; i++) {
+            if (menuItems[i].checked) {
+                 orderTotal += (Number(menuItems[i].value) * 1); 
+            }
+      }
+
+      document.getElementById("billTotal").innerHTML = formatCurrency(orderTotal);
+}
 
  // Function to display a numeric value as a text string in the format $##.## 
  function formatCurrency(value) {
