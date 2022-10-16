@@ -4,7 +4,7 @@
 
       Application to calculate total order cost
       Author: Isabelle Samaniego
-      Date:   October 8, 2022
+      Date:   October 12, 2022
 
       Filename: project03-01.js
 */
