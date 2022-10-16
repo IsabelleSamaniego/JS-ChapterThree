@@ -22,8 +22,6 @@ let reviews = [
 let reviewTitles = ["My Favorite Workout Game", "Poor Choreography", "Buggy with Poor Tech Support", "Nice Improvement"];
 
 
-
-
 // Function to generate the HTML tags of several star
 // images based on the value of the rating parameter
 function starImages(rating) {

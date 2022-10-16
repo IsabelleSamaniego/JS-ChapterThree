@@ -46,17 +46,13 @@ function showGames() {
         // gameInfo += "<p>";
         switch (gameResults[i]) {
             case "W":
-                gameInfo += "<p class='win'>";
-                break;
+                gameInfo += "<p class='win'>"; break;
             case "L":
-                gameInfo += "<p class='lose'>";
-                break;
+                gameInfo += "<p class='lose'>"; break;
             case "S":
-                gameInfo += "<p class='suspended'>";
-                break;
+                gameInfo += "<p class='suspended'>"; break;
             case "P":
-                gameInfo += "<p class='postponed'>";
-                break;
+                gameInfo += "<p class='postponed'>"; break;
         }
         
     // CH 3.6 -- ADDING DECISION MAKING TO YOUR CODE
